@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url("images/Screenshot\ 2023-10-05\ at\ 8.47.34\ PM.png");
+        background-repeat: no repeat;
+        color: white 
+}
+form{
+display:flex;
+            flex-direction: column;
+            height: 400px;
+            width: 400px;
+            border: 1px solid black;
+            align-items:center;
+            margin:auto;
+            margin-top:50px;
+            background-color: rgba(0,0,0,0.5);
+            box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+            border-radius:25px;
+}
+
+</style>
+<body>
+    <form action="" class="form">
+    <p>Create account as</p>
+    <label for="104">
+    <input type="radio" value="Student" name="profession" id="104">Student
+</label>
+
+<label for="106">
+    <input type="radio" value="Teacher" name="profession" id="106">Teacher
+</label>
+<br/>
+    <input type="text" placeholder="Full name">
+    <br/>
+    <input type="text" placeholder="Email">
+    <br/>
+    <input type="number" placeholder="Phone number">
+    <br/>
+    <input type="password" placeholder="Password">
+    <input type="password" placeholder="Confirm password">
+    <br/>
+    <input type="submit" value="Sign in">
+</form>
+</body>
+</html>
